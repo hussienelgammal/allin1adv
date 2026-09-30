@@ -1,0 +1,7 @@
+# Static site: publish index.html as-is, with no build step.
+[build]
+  publish = "."
+  command = ""
+
+[build.processing]
+  skip_processing = true
